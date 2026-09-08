@@ -1,4 +1,7 @@
 <title>Единственный верный путь</title>
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
 <style>
   :root {
     --ground: #eef1f5;
@@ -49,8 +52,8 @@
     background: var(--ground);
     color: var(--ink);
     font-family: "Source Serif 4", Georgia, "Times New Roman", serif;
-    font-size: clamp(16.5px, 1.1rem + 0.3vw, 19px);
-    line-height: 1.72;
+    font-size: clamp(16px, 4.3vw, 18.5px);
+    line-height: 1.68;
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
   }
@@ -66,13 +69,13 @@
     background: color-mix(in srgb, var(--ground) 86%, transparent);
     backdrop-filter: blur(8px);
   }
-  .masthead img { width: 40px; height: auto; display: block; }
+  .masthead img { width: 34px; height: auto; display: block; }
   .masthead .brand {
     font-family: "Archivo", system-ui, sans-serif;
-    font-weight: 700; font-size: .82rem; letter-spacing: .04em;
+    font-weight: 700; font-size: .78rem; letter-spacing: .03em;
     color: var(--ink); line-height: 1.15; min-width: 0; flex: 1;
   }
-  .masthead .brand span { display: block; font-weight: 500; font-size: .68rem; letter-spacing: .16em; text-transform: uppercase; color: var(--faint); margin-top: 2px; }
+  .masthead .brand span { display: block; font-weight: 500; font-size: .62rem; letter-spacing: .14em; text-transform: uppercase; color: var(--faint); margin-top: 2px; }
   .theme-toggle {
     margin-left: auto; border: 1px solid var(--line); background: var(--surface);
     color: var(--muted); width: 38px; height: 38px; border-radius: 50%;
@@ -92,14 +95,14 @@
   .eyebrow::after { content: ""; height: 1px; flex: 1; background: var(--line); }
   h1 {
     font-family: "Archivo", system-ui, sans-serif;
-    font-weight: 800; font-size: clamp(1.7rem, 2.4vw + 1rem, 3rem);
-    line-height: 1.1; letter-spacing: -0.015em; text-wrap: balance;
-    margin: 0 0 18px; color: var(--ink);
+    font-weight: 700; font-size: clamp(1.55rem, 6vw, 2.6rem);
+    line-height: 1.14; letter-spacing: -0.01em; text-wrap: balance;
+    margin: 0 0 16px; color: var(--ink);
   }
   h1 .accent { color: var(--navy); }
   .dek {
-    font-size: clamp(1.05rem, 2.6vw, 1.25rem); line-height: 1.5; color: var(--muted);
-    font-style: italic; margin: 0 0 26px; max-width: 40ch;
+    font-size: clamp(1rem, 4.3vw, 1.2rem); line-height: 1.5; color: var(--muted);
+    font-style: italic; margin: 0 0 22px; max-width: 42ch;
   }
   .byline {
     display: flex; flex-wrap: wrap; align-items: center; gap: 6px 12px;
@@ -128,9 +131,9 @@
   p { margin: 0 0 1.25em; }
   h2 {
     font-family: "Archivo", system-ui, sans-serif;
-    font-weight: 700; font-size: clamp(1.35rem, 3vw, 1.7rem);
-    line-height: 1.2; letter-spacing: -0.01em; text-wrap: balance;
-    margin: 2.2em 0 .7em; padding-top: .3em; color: var(--ink);
+    font-weight: 700; font-size: clamp(1.2rem, 4.6vw, 1.55rem);
+    line-height: 1.22; letter-spacing: -0.005em; text-wrap: balance;
+    margin: 1.9em 0 .6em; padding-top: .2em; color: var(--ink);
   }
   .lede { font-size: 1.06em; }
   .lede::first-line { }
