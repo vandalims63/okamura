@@ -190,6 +190,19 @@
   }
   .closer strong { color: var(--muted); font-weight: 600; }
 
+  /* Povinné politické oznámení — drobným písmem */
+  .ad-disclosure {
+    margin: 0; padding: 16px clamp(18px, 5vw, 28px) 32px;
+    border-top: 1px solid var(--line);
+    font-family: "Archivo", system-ui, sans-serif;
+    font-size: .68rem; line-height: 1.5; letter-spacing: .01em;
+    color: var(--faint);
+  }
+  .ad-disclosure .ad-label {
+    display: block; font-weight: 700; letter-spacing: .12em;
+    text-transform: uppercase; margin-bottom: 4px;
+  }
+
   a { color: var(--navy); }
   ::selection { background: var(--navy); color: #fff; }
   @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
@@ -268,6 +281,13 @@
   <footer class="closer">
     <p><strong>Názor.</strong> Text vyjadřuje autorský postoj na podporu iniciativ hnutí SPD a jeho lídra Tomia Okamury. Uvedená čísla a hodnocení je třeba ověřit v primárních zdrojích.</p>
   </footer>
+
+  <aside class="ad-disclosure">
+    <span class="ad-label">Politická reklama</span>
+    Zadavatel: SPD<br>
+    Zadavatel: [Česko] · Zhotovitel: [Greys]<br>
+    Volby 9.–10. 10. 2026
+  </aside>
 </div>
 
 <script>
